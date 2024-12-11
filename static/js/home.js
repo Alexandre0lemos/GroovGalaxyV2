@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         listMusic.appendChild(cardMusic)
 
         document.getElementById(`${music.Id}`).addEventListener("click", function() {
-            window.location.href = `${urlPage}ProductionMusic.html?id=${music.Id}`
+            window.location.href = `${urlPage}/ProductionMusic.html?id=${music.Id}`
         })
     })
 })
