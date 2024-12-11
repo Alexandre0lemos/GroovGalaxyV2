@@ -1,6 +1,7 @@
-import { audio } from "./ControleDeReproducao.js";
-import { urlPage } from "./url.js";
+let urlPage = location.href
+urlPage = urlPage.substring(0, urlPage.lastIndexOf("/"))
 
+import { audio } from "./ControleDeReproducao.js";
 
 document.addEventListener('DOMContentLoaded', function () {
     const progressBar = document.getElementById('progress-bar');

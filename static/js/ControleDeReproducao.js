@@ -1,6 +1,10 @@
+let urlPage = location.href
+urlPage = urlPage.substring(0, urlPage.lastIndexOf("/"))
+
 import { songsDb } from "./DbSongs.js";
 
 export const audio = new Audio();
+
 
 document.addEventListener("DOMContentLoaded", function() {
     let imageSong = document.getElementById("imageMusic");

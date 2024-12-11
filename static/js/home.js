@@ -1,8 +1,10 @@
+let urlPage = location.href
+
+
 import { songsDb } from "./DbSongs.js"
-import { urlPage } from "./url.js"
 
+console.log(urlPage)
 document.addEventListener("DOMContentLoaded", function() {
-
     const listMusic = document.getElementById("list-music")
     
     songsDb.map((music) => {
@@ -13,9 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
         listMusic.appendChild(cardMusic)
 
         document.getElementById(`${music.Id}`).addEventListener("click", function() {
-            window.location.href = `/ProductionMusic.html?id=${music.Id}`
+            window.location.href = `${urlPage}ProductionMusic.html?id=${music.Id}`
         })
     })
 })
+
 
 

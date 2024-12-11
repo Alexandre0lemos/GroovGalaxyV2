@@ -1,1 +1,0 @@
-export let urlPage = window.location.href

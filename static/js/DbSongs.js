@@ -1,4 +1,5 @@
-import { urlPage } from "./url.js";
+let urlPage = location.href
+urlPage = urlPage.substring(0, urlPage.lastIndexOf("/"))
 
 export const songsDb = [
     {
