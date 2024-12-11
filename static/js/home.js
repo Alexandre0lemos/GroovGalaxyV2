@@ -1,4 +1,5 @@
 import { songsDb } from "./DbSongs.js"
+import { urlPage } from "./url.js"
 
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         listMusic.appendChild(cardMusic)
 
         document.getElementById(`${music.Id}`).addEventListener("click", function() {
-            window.location.href = `../../ProductionMusic.html?id=${music.Id}`
+            window.location.href = `${urlPage}/ProductionMusic.html?id=${music.Id}`
         })
     })
 })
