@@ -1,6 +1,5 @@
 let urlPage = location.href
-
-
+urlPage = urlPage.substring(0, urlPage.lastIndexOf("/"))
 import { songsDb } from "./DbSongs.js"
 
 console.log(urlPage)
