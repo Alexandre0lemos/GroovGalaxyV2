@@ -2,7 +2,6 @@ let urlPage = location.href
 
 import { songsDb } from "./DbSongs.js"
 
-console.log(urlPage)
 document.addEventListener("DOMContentLoaded", function() {
     const listMusic = document.getElementById("list-music")
     
