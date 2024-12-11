@@ -25,3 +25,10 @@
     border-radius: 50%;
     transform: translateY(-50%);
 }
+
+@media (max-width: 430px) {
+    
+    #progress-container {
+        width: 100%;
+    }
+}
