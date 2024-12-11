@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+section {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 4em;
+}
+
+.card-music {
+    border: 1px solid black;
+    border-radius: 1em;
+    block-size: 10em;
+    width: 10em;
+    flex: auto;
+    transition: 0.1s linear;
+    background-size: contain;
+    background-position: center;
+}
+
+#list-music {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-music:hover {
+    block-size: 11.5em;
+    width: 11.5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+body {
+    background-image: url(../../assets/img/new202.jpg);
+}

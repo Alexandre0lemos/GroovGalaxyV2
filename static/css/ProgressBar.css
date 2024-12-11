@@ -1,0 +1,27 @@
+#progress-container {
+    width: 50vh;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative; /* Necessário para a bolinha se mover dentro da barra */
+}
+
+#progress-bar {
+    width: 0;
+    height: 0.5em;
+    background-color: #2183DD;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.dot {
+    position: absolute;
+    top: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: #2183DD;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}

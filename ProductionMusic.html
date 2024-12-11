@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons8-headphones-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/ProgressBar.css">
+    <title>GrooveGalaxy V2</title>
+</head>
+<body>
+    <section id="mainContainer">
+        <div id="config">
+            <img src="assets/img/icons8-engrenagem-64.png" id="config-image">
+        </div>
+
+        <div id="animation-song"></div>
+        <img id="imageMusic">
+
+        <article id="mediaControlInterface">
+            <h1 id="title"></h1>
+
+            <div id="progress-container">
+                <div id="progress-bar"></div>
+                <div class="dot"></div>
+            </div>            
+
+            <div id="media-controls">
+                <ul>
+                    <li>
+                        <img src="assets/img/icons8-replay-48.png" class="button-controller" id="replay">
+                    </li>
+                    
+                    <li>
+                        <img src="assets/img/icons8-low-volume-48.png" class="button-controller" id="low-volume">
+                    </li>
+                    
+                    <li>
+                        <img src="assets/img/icons8-end-48.png" class="button-controller" id="back-music">
+                    </li>
+                    
+                    <li>
+                        <img src="assets/img/icons8-pause-48.png" class="button-controller" id="play">
+                    </li>
+
+                    <li>
+                        <img src="assets/img/icons8-end-48.png" class="button-controller" id="next-music">
+                    </li>
+
+                    <li>
+                        <img src="assets/img/icons8-voice-48.png" class="button-controller" id="voice">
+                    </li>
+
+                    <li>
+                        <img src="assets/img/icons8-shuffle-64.png" class="button-controller" id="shuffle">
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <div id="timeContainer">
+            <span class="time" id="hours-and-minutes"></span>
+            <span class="time" id="seconds"></span>
+        </div>
+    </section>
+    <script type="module" src="static/js/ControleDeReproducao.js"></script>
+    <script type="module" src="static/js/MediaControler.js"></script>
+</body>
+</html>
