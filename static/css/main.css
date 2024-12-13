@@ -69,6 +69,7 @@ ul {
 #back-music {
     width: 27px;
     height: 27px;
+    transform: scaleX(-1);
 }
 
 #play {
@@ -79,7 +80,6 @@ ul {
 #next-music {
     width: 27px;
     height: 27px;
-    transform: scaleX(-1);
 }
 
 #replay, #shuffle {
