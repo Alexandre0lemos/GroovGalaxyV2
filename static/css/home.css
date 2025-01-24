@@ -29,22 +29,24 @@ section {
 
 #list-music {
     list-style: none;
-    display: flex;
+    display: grid;
     gap: 1em;
-    flex-wrap: wrap;
+    justify-items: center;
     align-items: center;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card-music:hover {
-    block-size: 11.5em;
-    width: 11.5em;
+    block-size: 11em;
+    width: 11em;
 }
 
 h1 {
     font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px 5px black;
 }
 
 body {
-    background-image: url(../../assets/img/new202.jpg);
+    background-color: whitesmoke;
 }

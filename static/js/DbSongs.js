@@ -7,7 +7,7 @@ export const songsDb = [
         Name: "Otonoke",
         PathMusic: `${urlPage}/assets/songs/Otonoke (Opening Theme to DAN DA DAN).FLAC`,
         PathImage: `${urlPage}/assets/icons/otonoke-transformed.jpeg`,
-        BackgroundColor: "linear-gradient(-100deg, #E70608, #f1a11d, #f1a11d, #E70608)",
+        BackgroundColor: " #f1a11d",
         Color: "4px 3px rgba(0, 0, 0, 0.341)"
     },
     {
@@ -15,7 +15,7 @@ export const songsDb = [
         Name: "APT",
         PathMusic: `${urlPage}/assets/songs/ROSÉ & Bruno Mars - APT. (live from 2024 MAMA AWARDS).FLAC`,
         PathImage: `${urlPage}/assets/icons/AptImage.jpg`,
-        BackgroundColor: "linear-gradient(135deg, #f16689, #f16689, #900C3F",
+        BackgroundColor: " #f16689",
         Color: "4px 3px rgba(#f16689)"
     },
     {
@@ -23,7 +23,7 @@ export const songsDb = [
         Name: "Die With A Smile",
         PathMusic: `${urlPage}/assets/songs/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video).FLAC`,
         PathImage: `${urlPage}/assets/icons/DieWithASmile.jpg`,
-        BackgroundColor: "linear-gradient(135deg, #053148, #027cb4)",
+        BackgroundColor: " #027cb4",
         Color: "#053148"
     },
     {
@@ -31,7 +31,7 @@ export const songsDb = [
         Name: "Judas - 7MZ",
         PathMusic: `${urlPage}/assets/songs/7 Minutoz - JUDAS.FLAC`,
         PathImage: `${urlPage}/assets/icons/Judas.png`,
-        BackgroundColor: "linear-gradient(135deg, #1a1721, #171620, #171620,#1e1e1e)",
+        BackgroundColor: " #171620",
         Color: "#000000"
     },
     {
@@ -39,7 +39,7 @@ export const songsDb = [
         Name: "Kaikai Kitan",
         PathMusic: `${urlPage}/assets/songs/KaikaiKitan.FLAC`,
         PathImage: `${urlPage}/assets/icons/kaikaikitan.jpeg`,
-        BackgroundColor: "linear-gradient(135deg, #480509, #c7142f, #480509)",
+        BackgroundColor: "rgba(199, 20, 47, 0.89)",
         Color: "#d91d01"
     }
 ];
